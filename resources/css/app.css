@@ -1,11 +1,98 @@
 @import 'tailwindcss';
+@import 'bootstrap/dist/css/bootstrap.min.css';  
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
 @source '../**/*.blade.php';
 @source '../**/*.js';
 
-@theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+:root {
+  --primary-color: #FF7A00; /* Vibrant orange */
+  --primary-hover: #FF6000; /* Darker orange for hover states */
+  --dark-color: #1A1A1A;    /* Nearly black */
+  --darker-color: #0F0F0F;  /* Pure black for contrast */
+  --light-color: #F8F8F8;   /* Off-white for text on dark backgrounds */
+  --accent-color: #333333;  /* Dark gray for accents */
+  --success-color: #66BB6A; /* Keep standard colors for success/info/etc */
+  --danger-color: #F44336;
+  --gray-color: #6c757d;
+}
+
+/* Override Bootstrap primary color */
+.btn-primary {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.btn-primary:hover, 
+.btn-primary:focus, 
+.btn-primary:active {
+  background-color: var(--primary-hover) !important;
+  border-color: var(--primary-hover) !important;
+}
+
+.btn-outline-primary {
+  color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}
+
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+.bg-primary {
+  background-color: var(--primary-color) !important;
+}
+
+.border-primary {
+  border-color: var(--primary-color) !important;
+}
+
+/* Custom theme classes */
+.bg-theme-dark {
+  background-color: var(--dark-color) !important;
+}
+
+.bg-theme-darker {
+  background-color: var(--darker-color) !important;
+}
+
+.text-theme-light {
+  color: var(--light-color) !important;
+}
+
+.text-theme-orange {
+  color: var(--primary-color) !important;
+}
+
+/* Navbar styling */
+.navbar-theme {
+  background-color: var(--dark-color) !important;
+}
+
+.navbar-theme .navbar-brand,
+.navbar-theme .nav-link {
+  color: var(--light-color) !important;
+}
+
+.navbar-theme .nav-link:hover {
+  color: var(--primary-color) !important;
+}
+
+/* Card styling */
+.card-theme {
+  border: 1px solid var(--accent-color);
+  background-color: var(--dark-color);
+  color: var(--light-color);
+}
+
+/* Footer styling */
+.footer-theme {
+  background-color: var(--darker-color) !important;
+  color: var(--light-color) !important;
 }
