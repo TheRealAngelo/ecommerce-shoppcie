@@ -27,7 +27,7 @@
 
 ---
 
-## 🛍️ Product Catalog
+## Product Catalog
 
 - Product listings with images and rich descriptions  
 - Category-based browsing  
@@ -35,7 +35,7 @@
 
 ---
 
-## 🧭 Shopping Experience
+## Shopping Experience
 
 - Product detail pages  
 - Search functionality  
