@@ -85,37 +85,40 @@
 - MySQL or MariaDB  
 - Node.js & NPM
 
-### 🛠️ Installation Steps
+### Installation Steps
 
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/TheRealAngelo/ecommerce-shoppcie.git
    cd ecommerce-shoppcie
 
-Installation
-1. Clone the repository
-git clone https://github.com/yourusername/ecommerce-shoppcie.git
+2. **Install PHP dependencies**
+   ```bash
+   composer install
 
-2. Install PHP dependencies
-composer install
+4. **Install NPM packages**
+    ```bash
+    npm install
 
-3. Install NPM packages
-npm install
+4. **Copy the environment file and configure your database**
+   ```bash
+   cp .env.example .env
 
-4. Copy the environment file and configure your database
-cp .env.example .env
+6. **Generate application key**
+    ```bash
+    php artisan key:generate
 
-5. Generate application key
-php artisan key:generate
+7. **Run migrations and seed the database**
+    ```bash
+    php artisan migrate --seed
 
-6. Run migrations and seed the database
-php artisan migrate --seed
+8. **Compile assets**
+    ```bash
+    npm run dev
 
-7. Compile assets
-npm run dev
-
-8. Start the development server
-php artisan serve
+9. **Start the development server**
+    ```bash
+    php artisan serve
 
 Demo Accounts
 For testing purposes, you can use these accounts:
