@@ -1,57 +1,96 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<p align="center">
+  <a href="https://laravel.com" target="_blank">
+    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo">
+  </a>
+</p>
 
-Shoppcie E-commerce Platform
+# 🛒 Shoppcie E-commerce Platform
 
-Status: Under Maintenance - This project is actively being developed, but many core features are working.
+**Status:** 🚧 Under Maintenance — Actively being developed. Core features are functional.
 
-Overview
-Shoppcie is a modern e-commerce platform built with Laravel, focusing on computer parts and electronics. It features a sleek dark-themed interface designed for tech enthusiasts, gamers, and PC builders.
+---
 
-Registration and login
-Role-based access (Admin, Seller, Customer)
-Account management
-Product Catalog
+## 🧾 Overview
 
-Product listings with images and descriptions
-Category browsing
-Featured products section
-Shopping Experience
+**Shoppcie** is a modern e-commerce platform tailored for computer parts and electronics. Built with Laravel, it features a sleek, dark-themed interface ideal for tech enthusiasts, gamers, and PC builders.
 
-Product details page
-Search functionality
-Responsive design for all devices
-Features Under Development
-Shopping Cart & Checkout
+---
 
-Cart functionality is in final stages of development
-Payment processing integration coming soon
-User Dashboard
+## 🔐 Authentication & User Roles
 
-Order history
-Wishlist functionality
-Advanced account settings
-Seller Portal
+- User registration & login (via Laravel Fortify)
+- Role-based access control:
+  - **Admin**
+  - **Seller**
+  - **Customer**
+- Account settings & profile management
 
-Product management
-Order fulfillment
-Analytics dashboard
-Admin Features
+---
 
-User management
-Site-wide statistics
-Content management
-Tech Stack
-Backend: Laravel 12.x
-Frontend: Blade templates with Bootstrap 5
-Database: MySQL
-Authentication: Laravel Fortify
-Assets: Vite
-Getting Started
-Prerequisites
-PHP 8.2+
-Composer
-MySQL/MariaDB
-Node.js & NPM
+## 🛍️ Product Catalog
+
+- Product listings with images and rich descriptions  
+- Category-based browsing  
+- Featured products section  
+
+---
+
+## 🧭 Shopping Experience
+
+- Product detail pages  
+- Search functionality  
+- Fully responsive design for mobile, tablet, and desktop  
+
+---
+
+## 🚧 Features in Progress
+
+### 🛒 Shopping Cart & Checkout
+- Cart functionality near completion  
+- Payment gateway integration (Coming soon)
+
+### 👤 User Dashboard
+- View order history  
+- Wishlist functionality  
+- Advanced account settings
+
+### 🏪 Seller Portal
+- Product and inventory management  
+- Order fulfillment tools  
+- Basic analytics dashboard
+
+### ⚙️ Admin Panel
+- Manage users (customers, sellers)  
+- Site-wide statistics  
+- Content & category management
+
+---
+
+## 🧰 Tech Stack
+
+- **Backend:** Laravel 12.x  
+- **Frontend:** Blade + Bootstrap 5  
+- **Authentication:** Laravel Fortify  
+- **Database:** MySQL  
+- **Assets & Bundler:** Vite
+
+---
+
+## 🚀 Getting Started
+
+### ✅ Prerequisites
+
+- PHP >= 8.2  
+- Composer  
+- MySQL or MariaDB  
+- Node.js & NPM
+
+### 🛠️ Installation Steps
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/TheRealAngelo/ecommerce-shoppcie.git
+   cd ecommerce-shoppcie
 
 Installation
 1. Clone the repository
