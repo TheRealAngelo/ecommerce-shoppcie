@@ -131,4 +131,7 @@
 - Laravel
 - Bootstrap
 - Font Awesome
-- Created By: Angelo Morales
+
+---
+  
+<div align="center"> <p>Angelo Morales © 2025 Shoppcie</p> </div>
