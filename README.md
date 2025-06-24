@@ -4,21 +4,21 @@
   </a>
 </p>
 
-# 🛒 Shoppcie E-commerce Platform
+# Shoppcie E-commerce Platform
 
-**Status:** 🚧 Under Maintenance — Actively being developed. Core features are functional.
+**Status:** Under Maintenance — Actively being developed. Core features are functional.
 
 ---
 
-## 🧾 Overview
+## Overview
 
 **Shoppcie** is a modern e-commerce platform tailored for computer parts and electronics. Built with Laravel, it features a sleek, dark-themed interface ideal for tech enthusiasts, gamers, and PC builders.
 
 ---
 
-## 🔐 Authentication & User Roles
+## Authentication & User Roles
 
-- User registration & login (via Laravel Fortify)
+- User registration & login 
 - Role-based access control:
   - **Admin**
   - **Seller**
@@ -43,30 +43,28 @@
 
 ---
 
-## 🚧 Features in Progress
-
-### 🛒 Shopping Cart & Checkout
+### Shopping Cart & Checkout
 - Cart functionality near completion  
 - Payment gateway integration (Coming soon)
 
-### 👤 User Dashboard
+### User Dashboard
 - View order history  
 - Wishlist functionality  
 - Advanced account settings
 
-### 🏪 Seller Portal
+### Seller Portal
 - Product and inventory management  
 - Order fulfillment tools  
 - Basic analytics dashboard
 
-### ⚙️ Admin Panel
+### Admin Panel
 - Manage users (customers, sellers)  
 - Site-wide statistics  
 - Content & category management
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - **Backend:** Laravel 12.x  
 - **Frontend:** Blade + Bootstrap 5  
@@ -76,9 +74,9 @@
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
-### ✅ Prerequisites
+### Prerequisites
 
 - PHP >= 8.2  
 - Composer  
@@ -120,14 +118,16 @@
     ```bash
     php artisan serve
 
-Demo Accounts
-For testing purposes, you can use these accounts:
+### Demo Accounts
+**For testing purposes, you can use these accounts:**
+| Role     | Email                                               | Password    |
+| -------- | --------------------------------------------------- | ----------- |
+| Admin    | [admin@shoppcie.com](mailto:admin@shoppcie.com)     | password123 |
+| Seller   | [seller@shoppcie.com](mailto:seller@shoppcie.com)   | password123 |
+| Customer | [customer@example.com](mailto:customer@example.com) | password123 |
 
-Admin: admin@shoppcie.com / password123
-Seller: seller@shoppcie.com / password123
-Customer: customer@example.com / password123
 
-Acknowledgements
+### Acknowledgements
 Laravel
 Bootstrap
 Font Awesome
