@@ -128,7 +128,7 @@
 
 
 ### Acknowledgements
-Laravel
-Bootstrap
-Font Awesome
-Note: This project is for demonstration purposes and is still under active development. Some features may change or be unavailable.
+- Laravel
+- Bootstrap
+- Font Awesome
+- Note: This project is for demonstration purposes and is still under active development. Some features may change or be unavailable.
